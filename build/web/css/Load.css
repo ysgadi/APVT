@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 mars 2017, 18:10:30
+    Author     : ZER-ALA
+*/
+.black_overlay {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index: 1001;
+            opacity: .60;
+        }
+
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 2%;
+            left: 36.25%;
+            width: 25%;
+            height: 180px;
+            margin-top:13%;
+            padding: 16px;
+            border: 2px solid grey;
+            background-color: #4A40A4;
+            opacity: 0.9;
+            z-index: 1002;
+        }
+
+        .big-message {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            padding: 5px;
+            text-align: center;
+            color: white;
+
+            font-family: serif;
+            font-size: 24px;
+        }
+		
+		.small-message {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            padding: 5px;
+            text-align: center;
+            color: blue;
+            font-family: serif;
+            font-size: 18px;
+        }
+		.ss-message
+		{
+			width: 80%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0px;
+            color: white;
+            font-family: serif;
+            font-size: 16px;
+		}
+.small-message3:hover
+{ 
+        background-color: grey;
+	cursor:Pointer;
+        width:80px;
+}
+#message5:hover
+{
+    
+     cursor:Pointer;
+     
+}
+.small-message3 {
+            width: 80%;
+            height: auto;
+            margin-left: 41%;
+            margin-top:15%;
+            padding: 5px;
+            text-align: left;
+            color: white;
+            font-family: serif;
+            font-size: 22px;
+        }
+        .small-message4{
+            width: 80%;
+            height: auto;
+            margin-left:10%;
+            margin-top:-19%;
+            padding: 5px;
+            text-align: left;
+            color: white;
+            font-family: serif;
+            font-size: 14px; 
+        }
+#urll
+{
+	margin-left:24%;
+        color:white;
+}
+
+#urlll
+{
+	margin-left:52%;
+        color:white;
+     
+}
+
+
